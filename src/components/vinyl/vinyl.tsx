@@ -1,4 +1,4 @@
-import Label from '../label/label';
+import { Label } from '@components/label';
 import Image from 'next/image';
 import Link from 'next/link';
 
