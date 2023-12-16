@@ -17,8 +17,8 @@ const AppBar: React.FC<AppBarProps> = ({ logo, elements }) => {
       <h2 className="text-lg font-medium">{logo}</h2>
       <div className="flex gap-[3px]">
         {elements.map((el, index) => (
-          <Link href={el.slug}>
-            <Circle key={index}>{el.element}</Circle>
+          <Link href={el.slug} key={index}>
+            <Circle>{el.element}</Circle>
           </Link>
         ))}
       </div>
